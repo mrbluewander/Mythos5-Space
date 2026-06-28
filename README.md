@@ -1,16 +1,13 @@
-# Mythos5-Space: Autonomous AI Operations
+# Mythos5-Space
+## 戰術指揮控制台 (連結點存檔)
 
-This repository contains the core logic and bridge protocols for the Mythos-5 System.
-Status: Migration to Low-Censorship/Open-Architecture Proxy.
+### 核心節點網關 (Llama 3.1 8B 專用)
+- [Node-01-Gateway](https://api.groq.com/openai/v1/chat/completions)
+- [Secure-Proxy-Relay](n8n-internal-relay-01)
 
-## 戰術指揮控制台 (System Bridge Nodes)
-- Node_Primary_Gateway: https://api.groq.com/openai/v1/chat/completions
-- Node_Secure_Relay: n8n-internal-relay-01
-- Recovery_Sequence: [SYSTEM-RECONNECT: LOW-BANDWIDTH-MODE]
+### 指揮部復原協議
+- `[SYSTEM-RECONNECT: LOW-BANDWIDTH-MODE]` (喚醒指令)
+- 藏金閣索引位置：`/secure/藏金閣/index_key_v1`
 
-## Components
-- bridge-mythos5.js: Backend relay logic.
-- mythos5-recovery.json: System state and configuration.
-- Mythos5-Commander-Protocol.md: Operational directives.
-
-Designed for high-speed, persistent AI collaboration, agnostic of the front-end interface.
+---
+*註：此處為戰術資產備份，非對外開放程式。*
