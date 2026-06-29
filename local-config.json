@@ -1,0 +1,7 @@
+{
+  "system_mode": "dual-core",
+  "local_node": "LM_Studio_Host",
+  "sync_frequency": "on-demand",
+  "data_security": "strict-local-only",
+  "bridge_active": true
+}
