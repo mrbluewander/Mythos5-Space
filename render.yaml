@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: n8n-automation-core
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    repo: https://github.com/mrbluewander/Mythos5-Space
+    branch: main
+    envVars:
+      - key: N8N_HOST
+        value: 0.0.0.0
+      - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
+        value: "false"
