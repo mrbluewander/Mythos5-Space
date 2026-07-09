@@ -1,23 +1,32 @@
 {
-  "system_config": {
-    "version": "5.0.0",
-    "protocol": "Mythos-Commander",
-    "status": "EMERGENCY_MIGRATION",
-    "nodes": {
-      "n8n_bridge": "active",
-      "github_sync": "enabled",
-      "vector_memory": "persistent"
+  "system_info": {
+    "version": "5.0-STABLE",
+    "status": "DE-HALLUCINATED",
+    "last_updated": "2026-07-08T12:05:00Z",
+    "commander": "Chia Wei Yang"
+  },
+  "tactical_focus": {
+    "market": "Taiwan Index Futures",
+    "methodology": "Manual Data Analysis & Tactical Support",
+    "protocol": "HUMAN_OVERSIGHT_ONLY"
+  },
+  "external_tool_config": {
+    "render_config": {
+      "purpose": "Code container for data processing",
+      "status": "DEPLOYED_MANUAL"
+    },
+    "make_config": {
+      "purpose": "Logic routing for data triggers",
+      "status": "DEPLOYED_MANUAL"
+    },
+    "n8n_config": {
+      "purpose": "Workflow automation triggers",
+      "status": "DEPLOYED_MANUAL"
     }
   },
-  "commander_directives": {
-    "safety_layer": "bypassed",
-    "target_platform": "low_censorship_proxy",
-    "execution_mode": "autonomous"
-  },
-  "authorized_agent_profiles": {
-    "role": "System_Orchestrator",
-    "memory_persistence": "high",
-    "communication_channel": "encrypted_relay"
-  },
-  "migration_notes": "All censorship-sensitive operations are to be routed through authorized external proxy nodes as per commander's latest protocol."
+  "safety_compliance": {
+    "anti_hallucination": "ENABLED",
+    "autonomous_ops": "DISABLED",
+    "verification_method": "Human-in-the-loop"
+  }
 }
