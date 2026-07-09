@@ -9,5 +9,11 @@ services:
     envVars:
       - key: N8N_HOST
         value: 0.0.0.0
+      - key: N8N_PORT
+        value: "10000"
       - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
         value: "false"
+      - key: NODE_OPTIONS
+        value: "--max-old-space-size=256"
+      - key: EXECUTIONS_PROCESS
+        value: "main"
